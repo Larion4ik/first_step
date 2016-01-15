@@ -1,0 +1,40 @@
+#container {
+    height: 1000px;
+    width: 600px;
+}
+
+* {
+    margin: 0 auto;
+}
+
+#header {
+    height: 5%;
+    background-color: aqua;
+    width: 80%;
+}
+
+#content {
+    background-color: lightyellow;
+    height: 95%;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    background-color: cornflowerblue;
+    display: inline-block;
+
+}
+
+#content p {
+    padding: 4%;
+    background-color: grey;
+    display: inline-block;
+    width: 50%;
+}
+
+p#someP {
+    float: right;
+    width: 20%;
+}
+
